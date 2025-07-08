@@ -1,0 +1,53 @@
+##Nombres de Branch main  -  multiple##
+##Descargar Branch##
+
+git clone <URL-del-repositorio>
+cd <nombre-del-repositorio>
+git checkout <nombre-del-branch>
+
+git clone https://github.com/nmorenoandrade/Todo-List.git
+cd Todo-List
+git checkout main
+
+
+##Actualizar el código del brach##
+git checkout multiple
+git fetch oin
+git merge origin/main ó
+git rebase origin/main {El comando `git rebase` sirve para mover o "reaplicar" los commits de una rama sobre otra base. Se usa principalmente para:
+
+- **Actualizar tu rama con los últimos cambios de otra rama (por ejemplo, main) manteniendo un historial lineal y limpio.**
+- **Evitar los "merge commits" innecesarios.**
+- **Facilitar la revisión del historial de cambios.**}
+
+#Actualizar los cambios
+git add .
+git commit -m "Resuelve conflictos de merge/rebase con main"
+git push origin multiple
+
+echo "# Todo-List" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/nmachupallas/Todo-List.git
+git push -u origin main
+
+
+theomoren148@gmail.com 
+nMMayo.2025
+thmoreno10
+
+#################
+netstat -ano | findstr 4200
+taskkill /F /PID 34184
+
+#crear proyecto
+ng new consumows
+#crear dos componentes
+ng g c inicio
+ng g c contacto
+#crear servicio
+ng g s foro
+#crear entorno
+ng g environments
